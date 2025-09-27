@@ -83,12 +83,6 @@ Data Analyst with **3+ years of experience** transforming healthcare data into a
 - Handled extreme class imbalance with advanced sampling techniques
 - Performed comprehensive model evaluation and comparison
 
-🔗 [GitHub](#) | [Kaggle](#)
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
 
 ## 🎓 Education
 
