@@ -26,7 +26,6 @@ export const portfolioData: PortfolioData = {
       company: 'Optum',
       position: 'Data Analyst',
       duration: 'Sep 2022 – June 2025',
-      current: true,
       description: [
         'Developed comprehensive healthcare analytics solutions using SQL, Python, and Power BI',
         'Created predictive models for claim denial prediction with 95% accuracy',
