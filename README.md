@@ -1,115 +1,128 @@
-# Purella Saikrishna Portfolio
+# Purella Saikrishna - Data Analyst & AI/ML Engineer 📊🤖
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+## 👨‍💻 About Me
 
-## 🚀 Tech Stack
+Data Analyst with **3+ years of experience** transforming healthcare data into actionable insights. Passionate about leveraging AI/ML techniques to drive business solutions across industries. Currently focused on building intelligent automation systems and predictive analytics models.
 
-- **React 18** - Modern React with functional components
-- **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Supabase** - Backend as a Service for data management
-- **Lucide React** - Beautiful icon library
+- 🔭 Currently working on: **AI-Powered Desktop Automation Systems**
+- 🌱 Learning: **Advanced MLOps, Generative AI, Cloud Architecture**
+- 📍 Location: **Hyderabad, Telangana, India**
+- 💬 Ask me about: **Healthcare Analytics, Machine Learning, Python, Cloud Deployment**
 
-## 🛠️ Development
+## 🛠️ Tech Stack
 
-### Prerequisites
-- Node.js (version 16 or higher)
-- npm or yarn
+### Programming & Development
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Installation
+### Machine Learning & AI
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-1. Clone the repository:
-```bash
-git clone https://github.com/saikrishna5655/Purella_Saikrishna_Portfolio.git
-cd Purella_Saikrishna_Portfolio
-```
+### Cloud & DevOps
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-2. Install dependencies:
-```bash
-npm install
-```
+### Data Visualization
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
-3. Start the development server:
-```bash
-npm run dev
-```
+## 💼 Professional Experience
 
-4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+### 🏥 Optum - Data Analyst
+**Sep 2022 – June 2025** | *Hyderabad, India*
+- Analyzed healthcare datasets to drive actionable insights and improve operational performance
+- Developed predictive models for healthcare process optimization and error detection
+- Created interactive Power BI dashboards for real-time reporting and trend visualization
+- Collaborated with cross-functional teams to define KPIs and establish reporting frameworks
 
-## 📜 Available Scripts
+### 🚀 AITAR Pvt. Ltd. - ML Engineer Intern
+**Jan 2022 - July 2022** | *Hyderabad, India*
+- Worked on SEED and ARTIGROW projects utilizing CLIMFOR modeling for energy and agriculture
+- Collected and processed climate data from Copernicus for forecasting applications
+- Implemented ML algorithms including decision trees, clustering, and neural networks
+- Collaborated with German company Geopredict GmbH on international climate projects
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint for code quality
-- `npm run typecheck` - Run TypeScript type checking
+## 🚀 Featured Projects
 
-## 🏗️ Project Structure
+### 🤖 AI-Powered Desktop Automation Agent
+*Cloud-native automation system with intelligent workflow execution*
 
-```
-src/
-├── components/     # Reusable UI components
-├── pages/         # Page components
-├── hooks/         # Custom React hooks
-├── utils/         # Utility functions
-├── types/         # TypeScript type definitions
-├── styles/        # Global styles
-└── assets/        # Images, icons, etc.
-```
+**Tech Stack:** `Python` `Google Cloud Platform` `OpenAI GPT-4` `WebSocket` `Microservices`
 
-## 🚀 Deployment
+- Deployed scalable automation system on GCP using Cloud Run and Cloud Functions
+- Integrated GPT-4 Vision for screen understanding and intelligent task planning
+- Built real-time communication using WebSocket for client-server interactions
+- Implemented data pipelines with Cloud Storage and Pub/Sub for task management
 
-The project can be deployed to various platforms:
+🔗 [Live Demo](#) | [GitHub](#) | [Documentation](#)
 
-- **Vercel**: Connect your GitHub repo for automatic deployments
-- **Netlify**: Drag and drop the `dist` folder after running `npm run build`
-- **GitHub Pages**: Use GitHub Actions for automatic deployment
+### 🏥 Healthcare Claim Denial Prediction System
+*ML pipeline predicting claim denial risk with interactive dashboards*
 
-### Build for Production
+**Tech Stack:** `Python` `Scikit-learn` `Power BI` `SQL` `Logistic Regression`
 
-```bash
-npm run build
-```
+- Built end-to-end ML pipeline with automated preprocessing and feature engineering
+- Achieved 85% accuracy in predicting healthcare claim denials
+- Created interactive Power BI dashboards for business stakeholders
+- Implemented anomaly detection and categorical encoding for robust predictions
 
-This creates a `dist` folder with optimized production files.
+🔗 [GitHub](#) | [Dashboard Demo](#)
 
-## 📋 Features
+### 💳 Credit Card Fraud Detection System
+*Advanced anomaly detection using PCA and ensemble methods*
 
-- ⚡ Fast development with Vite
-- 🎨 Modern UI with Tailwind CSS
-- 📱 Fully responsive design
-- 🔧 TypeScript for better developer experience
-- 📊 Supabase integration for dynamic content
-- 🎯 SEO optimized
-- 🚀 Production ready
+**Tech Stack:** `Python` `PCA` `Random Forest` `Gradient Boosting` `Anomaly Detection`
 
-## 🤝 Contributing
+- Analyzed PCA-transformed financial data for fraud pattern recognition
+- Implemented ensemble methods for improved detection accuracy
+- Handled extreme class imbalance with advanced sampling techniques
+- Performed comprehensive model evaluation and comparison
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+🔗 [GitHub](#) | [Kaggle](#)
 
-## 📄 License
+## 📊 GitHub Stats
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
 
-## 👤 Author
+## 🎓 Education
 
-**Saikrishna Purella**
+**Bachelor of Technology in Computer Science Engineering** | 2021
 
-- GitHub: [@saikrishna5655](https://github.com/saikrishna5655)
-- Portfolio: [Your Portfolio URL]
+## 🏆 Skills Matrix
 
-## 🙏 Acknowledgments
+| Category | Skills |
+|----------|--------|
+| **Languages** | Python, SQL, JavaScript |
+| **ML/AI** | Regression, Classification, Deep Learning, NLP, Computer Vision |
+| **Cloud** | Google Cloud Platform, AWS, Azure ML, Vertex AI |
+| **Data Engineering** | ETL, PySpark, Data Pipelines, Big Data Processing |
+| **Visualization** | Power BI, Tableau, Plotly, Matplotlib |
+| **MLOps** | Docker, Kubernetes, Model Deployment, CI/CD |
 
-- React team for the amazing framework
-- Tailwind CSS for the utility-first approach
-- Vite team for the blazing fast build tool
-- All the open source contributors
+## 📈 Current Focus
+
+- 🔬 **Research Interest:** Generative AI and Large Language Models
+- 🛠️ **Building:** Advanced AI agents for business process automation
+- 📚 **Learning:** MLOps best practices and cloud-native architectures
+- 🎯 **Goal:** Transition into senior Data Scientist/ML Engineer roles
+
+## 📫 Let's Connect!
+
+I'm always open to discussing data science, AI/ML projects, or collaboration opportunities!
+
+- 📧 Email: saikrishnapurella89@gmail.com
+- 💼 LinkedIn: [purella-saikrishna](https://linkedin.com/in/purella-saikrishna)
+- 📱 Phone: +91 9515376035
+- 📍 Location: Hyderabad, Telangana, India
 
 ---
 
-⭐ Star this repo if you found it helpful!
+⭐️ **If you find my work interesting, please consider giving a star to my repositories!**
+
+*"Transforming data into insights, one algorithm at a time."* 🚀
