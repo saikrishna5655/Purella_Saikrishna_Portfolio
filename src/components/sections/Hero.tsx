@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Eye, Mail, MapPin, Phone, Linkedin } from 'lucide-react';
+import { Download, Eye, Mail, MapPin, Phone, Linkedin, Github } from 'lucide-react';
 import { useTypewriter } from '../../hooks/useTypewriter';
 import { portfolioData } from '../../data/portfolio';
 import profileImage from './profile.png';
@@ -61,12 +61,16 @@ export const Hero: React.FC = () => {
                 <Eye size={20} className="mr-2" />
                 View Projects
               </button>
-              <button 
+              <a 
+                href="/Saikrishna_Purella_Resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-secondary"
               >
                 <Download size={20} className="mr-2" />
                 Download Resume
-              </button>
+              </a>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="btn btn-secondary"
@@ -76,7 +80,7 @@ export const Hero: React.FC = () => {
               </button>
             </div>
 
-            <div className="mt-8 flex justify-center lg:justify-start">
+            <div className="mt-8 flex justify-center lg:justify-start space-x-4">
               <a
                 href={`https://${portfolioData.personalInfo.linkedin}`}
                 target="_blank"
@@ -84,6 +88,14 @@ export const Hero: React.FC = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 <Linkedin size={24} />
+              </a>
+              <a
+                href="https://github.com/saikrishna5655"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+              >
+                <Github size={24} />
               </a>
             </div>
           </div>
