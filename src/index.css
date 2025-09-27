@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@layer base {
+  :root {
+    --font-size-base: 14px;
+    --spacing-unit: 0.25rem;
+  }
+
+  html {
+    font-size: var(--font-size-base);
+  }
+
+  @screen lg {
+    :root {
+      --font-size-base: 15px;
+    }
+  }
+
+  @screen xl {
+    :root {
+      --font-size-base: 16px;
+    }
+  }
+}
 
 * {
   margin: 0;
@@ -94,11 +117,79 @@ html {
   @apply ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-gray-900;
 }
 
-/* Button hover effects */
+/* Responsive container */
+.container-responsive {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  max-width: 96%;
+}
+
+@media (min-width: 640px) {
+  .container-responsive {
+    max-width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-responsive {
+    max-width: 94%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-responsive {
+    max-width: 92%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-responsive {
+    max-width: 90%;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  min-width: max-content;
+}
+
 .btn-primary {
-  @apply bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 hover:shadow-lg;
+  background-color: theme('colors.blue.600');
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: theme('colors.blue.700');
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .btn-secondary {
-  @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-200;
+  border: 2px solid theme('colors.blue.600');
+  color: theme('colors.blue.600');
+}
+
+.btn-secondary:hover {
+  background-color: theme('colors.blue.600');
+  color: white;
 }

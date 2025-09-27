@@ -2,6 +2,7 @@ import React from 'react';
 import { Download, Eye, Mail, MapPin, Phone, Linkedin } from 'lucide-react';
 import { useTypewriter } from '../../hooks/useTypewriter';
 import { portfolioData } from '../../data/portfolio';
+import profileImage from './profile.png';
 
 export const Hero: React.FC = () => {
   const typewriterText = useTypewriter(portfolioData.personalInfo.roles);
@@ -15,17 +16,17 @@ export const Hero: React.FC = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-teal-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container-responsive py-16">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 {portfolioData.personalInfo.name.split(' ')[1]}
               </span>
             </h1>
             
-            <div className="mt-4 text-xl sm:text-2xl text-gray-600 dark:text-gray-300">
+            <div className="mt-4 text-lg sm:text-xl text-gray-600 dark:text-gray-300">
               <span>I'm a </span>
               <span className="text-blue-600 dark:text-blue-400 font-semibold min-h-[1.5em] inline-block">
                 {typewriterText}
@@ -33,7 +34,7 @@ export const Hero: React.FC = () => {
               </span>
             </div>
 
-            <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
+            <p className="mt-6 text-base text-gray-600 dark:text-gray-300 max-w-2xl">
               {portfolioData.personalInfo.tagline}
             </p>
 
@@ -55,18 +56,20 @@ export const Hero: React.FC = () => {
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button
                 onClick={() => scrollToSection('projects')}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
+                className="btn btn-primary"
               >
                 <Eye size={20} className="mr-2" />
                 View Projects
               </button>
-              <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center justify-center">
+              <button 
+                className="btn btn-secondary"
+              >
                 <Download size={20} className="mr-2" />
                 Download Resume
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center justify-center"
+                className="btn btn-secondary"
               >
                 <Mail size={20} className="mr-2" />
                 Contact Me
@@ -87,8 +90,12 @@ export const Hero: React.FC = () => {
 
           <div className="flex justify-center">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-teal-400 p-2 shadow-2xl">
-              <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-500 dark:text-gray-400 text-lg font-medium">
-                Professional Photo
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <img 
+                  src={profileImage} 
+                  alt="Saikrishna Purella"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
